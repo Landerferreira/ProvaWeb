@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul { 
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:indigo;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    color:indigo;
+}
+
+.bandeira {
+    
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-weight: bold;
+    border: 0;
+    background: darkslateblue;
+    color: antiquewhite;
+}
+
+header {
+    background: no-repeat center/cover url(https://www.viajaquepassa.com.br/wp-content/uploads/2021/02/torre-eiffel-paris.png);
+    height: calc(100vh - 200px);
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 9px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.curiosidades p {
+    display: flex;
+    margin: auto;
+    max-width: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.historia p {
+    display: flex;
+    margin: auto;
+    max-width: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.fatos-marcantes p {
+    display: flex;
+    margin: auto;
+    max-width: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.curiosidades .historia .fatos-marcantes  {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
